@@ -1,5 +1,5 @@
 var http = require('http');
-const PORT= (process.env.PORT || 3000);
+const PORT= (process.env.PORT);
 import express from 'express';
 const app = express();
 var server = require('http').createServer(app);
